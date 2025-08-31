@@ -7,7 +7,7 @@ df = pd.read_csv("vehicles_us.csv")
 # leer los datos
 car_data = pd.read_csv("vehicles_us.csv")
 
-st.header('Lanzar una moneda')
+st.header('Gráficas de vehiculos')
 
 # crear un botón
 hist_button = st.button('Construir histograma')
